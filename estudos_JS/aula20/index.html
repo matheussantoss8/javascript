@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form{
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: antiquewhite;
+            width: 500px;
+            height: 500px;
+        }
+
+        input[type=submit]{
+            height: 50px;
+            width:200px;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form" action="#" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" class="nome" name="nome" id="inome">
+        </p>
+
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" class="sobrenome" name="nome" id="isobrenome">
+        </p>
+
+        <p>
+            <label for="ipeso">Peso</label>
+            <input type="text" class="peso" name="nome" id="ipeso">
+        </p>
+
+        <p>
+            <label for="ialtura">Altura</label>
+            <input type="text" class="altura" name="nome" id="ialtura">
+        </p>
+
+        <button>Enviar</button>
+
+        <div class="dados"></div>
+    </form>
+
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
