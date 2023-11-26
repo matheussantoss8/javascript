@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    --cor-primaria: #000000;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-primaria);
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+h1{
+    color: rgb(223, 223, 223);
+}
+
+.container{
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #5c3904;
+    border-radius: 20px;
+}
+
+
+.calculadora{
+    width: 500px;
+}
+
+.display{
+    font-size:2em; 
+    width: 100%;
+    text-align: right;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #dfdfdf80;
+}
+
+.button-eq{
+    background-color: #07edf5be;
+}
+
+.button-del, .button-clear{
+    background-color: rgb(156, 6, 6);
+}
