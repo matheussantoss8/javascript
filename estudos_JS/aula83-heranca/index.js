@@ -33,13 +33,13 @@ class smartphone extends DispositvoEletronico {
 class Tablet extends DispositvoEletronico {
     constructor(nome, wifi) {
         super(nome);
-        this.wifi = wifi
+        this.wifi = wifi;
     }
 
     ligar() {
-        console.log('conectado no wifi')
+        console.log('conectado no wifi');
     }
 }
 
 const i1 = new Tablet('iphone', 'branco');
-console.log(i1.ligar())
+console.log(i1.ligar());
