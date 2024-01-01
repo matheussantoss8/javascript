@@ -28,4 +28,4 @@ esperaAi('Conexão com o Base de Dados', rand(1, 5))
         console.log('Exibe dados na tela');
     }).catch(e =>{
         console.log('erro:', e);
-    })
+    }) 
