@@ -2,7 +2,7 @@
 
 
 :root{
-    --cor-primaria: #434343;
+    --cor-primaria: #7a7975;
 }
 
 *{
@@ -52,4 +52,8 @@ button{
 
 button:hover{
     background-color: #13976b;
+}
+
+table{
+    width: 100%;
 }
