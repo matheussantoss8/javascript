@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="formulario">
+            <h1>Login</h1>
+            <p>Bem-vindo(a). Faça login para acessar sua conta.</p>
+        </div>
+        <form action="login.html" method="post" autocomplete="on">
+            <div class="login">
+                <label for="iemail">Usuário</label>
+                <input type="email" name="iemail" id="iemail" required autocomplete="email" minlength="10">
+                <span class="material-symbols-outlined">Account_Circle</span>
+            </div>
+            <div class="login">
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" required autocomplete="current-password" minlength="8">
+                <span class="material-symbols-outlined">lock</span>
+            </div>
+            <div class="esqueci">
+                <p>Esqueci a <a href="#">Senha</a><span class="material-symbols-outlined"></span></p>
+            </div>
+            <div>
+                <input type="submit" value="Conecte-se">
+            </div>
+            <div class="botao">
+                <p>Não tenho conta <a href="#">Registrar-se</a></p>
+            </div>
+        </form>
+    </section>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
